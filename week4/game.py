@@ -3,7 +3,7 @@ guesses = 0
 a = random.randint(1, 10)
 print("Welcome to the number guessing game, type exit to leave the game")
 print("The computer has generated a number between 1 and 10")
-while guesses < 9:
+while guesses < 10:
     print("Place your guess")
     guess = input()
     guess = int(guess)
